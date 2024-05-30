@@ -1,0 +1,51 @@
+.explore-product{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-product h1{
+    color:#262624;
+    font-weight: 500;
+}
+.explore-product-text{
+    max-width: 60%;
+    color: #808080;
+}
+.explore-product-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll ;
+}
+/* This is a single-line comment 
+.explore-product-list::-webkit-scrollbar {
+    display: none;
+}
+*/
+.explore-product-list-item img{
+    width: 2.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+    border-color: black;
+}
+.explore-product-list-item p{
+    margin-top: 10px;
+    color: #747474;
+    font-size:max(1.4vw,16px);
+    cursor: pointer;
+}
+.explore-product hr{
+    margin:10px 0;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+.explore-product-list-item .active{
+    border: 4px solid lightblue;
+    padding: 2px;
+}
